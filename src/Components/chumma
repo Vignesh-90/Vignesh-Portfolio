@@ -1,0 +1,518 @@
+// import React from 'react'
+
+
+        // header section
+
+    //     <header className='flex justify-between items-center px-5 py-3 bg-primary'>
+    //     {/* Logo or Branding */}
+    //     <a className='font-bold text-black text-xl' href="#">Vigneshwaran M</a>
+
+    //     {/* Desktop Navigation */}
+    //     <nav className='hidden md:block'>
+    //       <ul className='flex space-x-6 text-amber-900'>
+    //         <li><a href="#">Home</a></li>
+    //         <li><a href="#">About</a></li>
+    //         <li><a href="#">Skills</a></li>
+    //         <li><a href="#">Projects</a></li>
+    //         <li><a href="#">Contact</a></li>
+    //       </ul>
+    //     </nav>
+
+    //     {/* Mobile Navigation Toggle Button */}
+    //     <button onClick={() => settoggle(!toggle)} className='block md:hidden'>
+    //       <Bars3Icon className='text-black h-6' />
+    //     </button>
+
+    //     {/* Mobile Navigation (Hidden by default, shown when toggle is true) */}
+    //     {toggle && (
+    //       <nav className='block md:hidden mobile-nav  top-0 left-0 w-full bg-white p-4'>
+    //         <ul className='flex flex-col space-y-4 text-amber-900'>
+    //           <li><a href="#">Home</a></li>
+    //           <li><a href="#">About</a></li>
+    //           <li><a href="#">Skills</a></li>
+    //           <li><a href="#">Projects</a></li>
+    //           <li><a href="#">Contact</a></li>
+    //         </ul>
+    //       </nav>
+    //     )}
+    //   </header>
+
+
+
+
+
+
+
+// import { TiHtml5 } from "react-icons/ti";
+// import { IoLogoCss3 } from "react-icons/io5";
+// import { IoLogoJavascript } from "react-icons/io5";
+// import { FaReact } from "react-icons/fa";
+// import { FaBootstrap } from "react-icons/fa6";
+// import { FaNodeJs } from "react-icons/fa";
+// import { SiExpress } from "react-icons/si";
+// import { SiMongodb } from "react-icons/si";
+// import { FaGithub } from "react-icons/fa";
+// import { FaFileExcel } from "react-icons/fa";
+// import { SiPostman } from "react-icons/si";
+
+// export const Myskills = () => {
+//     return (
+//         <>
+//             <section>
+//                 <div className='mainski justify-center'>
+//                 <h1>Skills</h1>
+//                 <p>Here are some of my skills...</p>
+//                 </div>
+
+//                 <div>
+//                     <h2>Frontend </h2>
+//                     <a href='#' className=''><TiHtml5 /> HTML</a>
+//                     <a href='#' className=''><IoLogoCss3 /> CSS</a>
+//                     <a href='#' className=''>< IoLogoJavascript /> JavaScript</a>
+//                     <a href='#' className=''>< FaReact /> React JS</a>
+//                     <a href='#' className=''><FaBootstrap /> Bootstrap</a>
+//                 </div>
+
+//                 <div>
+//                     <h2>Backend</h2>
+//                     <a href='#' className=''><FaNodeJs/>Node JS</a>
+//                     <a href='#' className=''><SiExpress/> Express JS</a>
+//                     <a href='#' className=''>< SiMongodb />MongoDB </a>
+                    
+//                 </div>
+
+//                 <div>
+//                     <h2>Others</h2>
+//                     <a href='#' className=''><FaGithub />GitHub</a>
+//                     <a href='#' className=''><FaFileExcel /> MS Excel</a>
+//                     <a href='#' className=''><  SiPostman />PostMan </a>
+                    
+//                 </div>
+
+
+//             </section>
+//         </>
+//     )
+// }
+// min-w-full max-h-
+
+
+
+// <section className='  bg-cyan-100 '>
+//                 <div className='mainski md:w-1/2  pb-10'>
+//                     <h1 className='mm justify-center  font-bold text-4xl '>Skills</h1>
+//                     <p className='sptag'>Here are some of my skills...</p>
+//                 </div>
+//                 <div className='md:w-3/4 flex alllang '>
+                
+//                     <div className='front '>
+//                         <h2 className='text-gray-600 pl-24'>Frontend </h2>
+//                         <div className=' gap-2 flex frontend'>
+//                             <p className=''><TiHtml5  className=''/> HTML</p>
+//                             <p  className=''><IoLogoCss3 /> CSS</p>
+//                             <p  className=''>< IoLogoJavascript /> JavaScript</p>
+//                             <p  className=''>< FaReact /> React JS</p>
+//                             <p  className=''><FaBootstrap /> Bootstrap</p>
+//                         </div>
+//                     </div>
+
+//                     <div className='back  '>
+//                         <h2 className=' text-gray-600 pl-20'>Backend</h2>
+//                         <div className='flex gap-2 backend'>
+//                             <p  className=''><FaNodeJs />Node JS</p>
+//                             <p className=''><SiExpress /> Express JS</p>
+//                             <p className=''>< SiMongodb />MongoDB </p>
+//                         </div>
+//                     </div>
+
+//                     <div className='other   '>
+//                         <h2 className=' text-gray-600 pl-20'>Others</h2>
+//                         <div className='flex gap-2 otherend'>
+//                             <p className=''><FaGithub />GitHub</p>
+//                             <p className=''><FaFileExcel /> MS Excel</p>
+//                             <p className=''><  SiPostman />PostMan </p>
+//                         </div>
+//                     </div>
+
+//                 </div>
+//             </section>
+
+
+
+
+// <section className="bg-cyan-100 py-10">
+// <div className="mainski md:w-1/2 pb-10 text-center">
+//     <h1 className="font-bold text-4xl mb-4">Skills</h1>
+//     <p className="text-lg text-gray-600">Here are some of my skills...</p>
+// </div>
+
+// <div className="md:w-3/4 mx-auto flex flex-wrap justify-around">
+//     {/* Frontend Section */}
+//     <div className="flex flex-col items-center p-4 w-full md:w-1/3 mb-6">
+//         <h2 className="text-gray-600 text-xl font-semibold mb-4">Frontend</h2>
+//         <div className="flex gap-4 justify-center">
+//             <p className="flex items-center text-lg">
+//                 <TiHtml5 className="text-red-600 mr-2" /> HTML
+//             </p>
+//             <p className="flex items-center text-lg">
+//                 <IoLogoCss3 className="text-blue-500 mr-2" /> CSS
+//             </p>
+//             <p className="flex items-center text-lg">
+//                 <IoLogoJavascript className="text-yellow-500 mr-2" /> JavaScript
+//             </p>
+//             <p className="flex items-center text-lg">
+//                 <FaReact className="text-blue-500 mr-2" /> React JS
+//             </p>
+//             <p className="flex items-center text-lg">
+//                 <FaBootstrap className="text-purple-600 mr-2" /> Bootstrap
+//             </p>
+//         </div>
+//     </div>
+
+//     {/* Backend Section */}
+//     <div className="flex flex-col items-center p-4 w-full md:w-1/3 mb-6">
+//         <h2 className="text-gray-600 text-xl font-semibold mb-4">Backend</h2>
+//         <div className="flex gap-4 justify-center">
+//             <p className="flex items-center text-lg">
+//                 <FaNodeJs className="text-green-600 mr-2" /> Node JS
+//             </p>
+//             <p className="flex items-center text-lg">
+//                 <SiExpress className="text-gray-800 mr-2" /> Express JS
+//             </p>
+//             <p className="flex items-center text-lg">
+//                 <SiMongodb className="text-green-700 mr-2" /> MongoDB
+//             </p>
+//         </div>
+//     </div>
+
+//     {/* Other Skills Section */}
+//     <div className="flex flex-col items-center p-4 w-full md:w-1/3 mb-6">
+//         <h2 className="text-gray-600 text-xl font-semibold mb-4">Others</h2>
+//         <div className="flex gap-4 justify-center">
+//             <p className="flex items-center text-lg">
+//                 <FaGithub className="text-gray-900 mr-2" /> GitHub
+//             </p>
+//             <p className="flex items-center text-lg">
+//                 <FaFileExcel className="text-green-500 mr-2" /> MS Excel
+//             </p>
+//             <p className="flex items-center text-lg">
+//                 <SiPostman className="text-orange-600 mr-2" /> Postman
+//             </p>
+//         </div>
+//     </div>
+// </div>
+// </section>
+
+
+        //  HERO SECTION
+
+
+    //     <div className='main '>
+    //     <marquee behavior="" direction="" className='mark ' >
+    //         <h4>WELCOME TO MY PORTFOLIO 👨‍💻🙏</h4>
+    //     </marquee>
+    //     <section className=' flex flex-col md:flex-row px-5 py-32 bg-secondary justify-center '>
+
+    //         <div className='md:w-1/3 flex flex-col'>
+
+    //             <h1 className='text-2xl miow'>Hi,<br /> Im <span className='text-orange-300'>VIGNESHWARAN</span> M
+    //                 <marquee behavior="slide" direction="" >
+    //                     <p className='text-1xl wikki'>Im a MERN Stack developer <span className='text-blue-700'>(Fresher)</span> </p>
+    //                 </marquee>
+    //             </h1>
+    //             <div className='flex py-5'>
+    //                 <a href="#" className='pr-3 hover:text-blue-400'><IoLogoLinkedin size={20}/></a>
+    //                 <a href="#" className='pr-3 hover:text-pink-400'><FaSquareInstagram size={20}/></a>
+
+    //                 <a href="#" className='hover:text-white'><FaXTwitter size={20}/></a>
+    //             </div>
+    //         </div>
+
+    //         <img className=' md:w-1/3 immg' src={Heroimg} alt="/" />
+
+    //     </section>
+    // </div>
+
+
+    // project section
+
+
+//     <section className='flex flex-col py-5 px-5 justify-center bg-blue-300 text-white'>
+//     <div className='w-1/2 pb-4'>
+//         <div className='justify-center flex'>
+//             <h1 className='text-3xl  border-b-4 mb-4 w-[125px]'>Projects!</h1>
+//             <p>Here are some of in my final year project and i have worked in this project in frontend</p>
+//         </div>
+//     </div>
+//     <div className='w-1/2'>
+//         <div className="flex gap-3">
+
+//             <img className='h-[200px] ' src={model} alt="#" />
+//             <img className='h-[200px] ' src={model2} alt="#" />
+//             <img className='h-[200px] ' src={model3} alt="#" />
+//             <img className='h-[200px] ' src={model4} alt="#" />
+//             <p>
+//                 A Application built the backend is python. Using deeplearning domain.
+//             </p>
+
+
+//         </div>
+
+//     </div>
+// </section>
+
+// PROJECT SECTION 2
+
+
+//  <section className='flex flex-col py-5 px-5 justify-center bg-blue-300'>
+//                 <div className='w-full md:w-1/2 pb-4'>
+//                     <div className='justify-center flex flex-col items-center'>
+//                         <h1 className=' text-white text-3xl border-b-4 mb-4 w-[125px] text-center animate__animated animate__fadeIn'>
+//                             Projects!
+//                         </h1>
+//                         <p className='text-center animate__animated animate__fadeIn animate__delay-1s'>
+//                             Here are some of my final year projects where I am worked on the frontend.
+//                         </p>
+//                     </div>
+//                 </div>
+
+//                 <div className='w-full flex-nowrap md:w-1/2'>
+//                     <div className='flex flex-row justify-center gap-4'>
+//                         <div className='animate__animated animate__fadeIn animate__delay-2s'>
+//                             <img className='h-[200px] w-auto rounded-lg shadow-lg transform transition-transform duration-500 hover:scale-110' src={model} alt="Model 1" />
+//                         </div>
+//                         <div className='animate__animated animate__fadeIn animate__delay-2s'>
+//                             <img className='h-[200px] w-auto rounded-lg shadow-lg transform transition-transform duration-500 hover:scale-110' src={model2} alt="Model 2" />
+//                         </div>
+//                         <div className='animate__animated animate__fadeIn animate__delay-2s'>
+//                             <img className='h-[200px] w-auto rounded-lg shadow-lg transform transition-transform duration-500 hover:scale-110' src={model3} alt="Model 3" />
+//                         </div>
+//                         <div className='animate__animated animate__fadeIn animate__delay-2s'>
+//                             <img className='h-[200px] w-auto rounded-lg shadow-lg transform transition-transform duration-500 hover:scale-110' src={model4} alt="Model 4" />
+//                         </div>
+//                     </div>
+
+//                     <p className='text-center text-lg mt-4 animate__animated animate__fadeIn animate__delay-3s'>
+//                         An application built with Python backend using deep learning.
+//                     </p>
+//                 </div>
+//             </section> 
+
+
+
+
+
+
+//  <section className="flex flex-col w-[100%] py-5 px-5 justify-center bg-blue-300 text-white">
+// <div className="w-full md:w-1/2 pb-4">
+//     <div className="flex flex-col md:flex-row justify-center items-start">
+//         <h1 className="text-3xl border-b-4 mb-4 md:mb-0 md:w-[150px] text-center md:text-left">Projects!</h1>
+//         <p className="text-center md:text-left md:ml-4">
+//             Here are some of my final year projects. I worked on the frontend, while the backend is built with Python using Deep Learning.
+//         </p>
+//     </div>
+// </div>
+// <div className="w-full md:w-1/2">
+//     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
+//         <div className="flex flex-col items-center">
+//             <img className="h-[200px] w-full object-cover rounded-lg shadow-lg" src={model} alt="Project 1" />
+//               <p className="mt-2 text-center text-sm">Project 1</p> 
+//         </div>
+//         <div className="flex flex-col items-center">
+//             <img className="h-[200px] w-full object-cover rounded-lg shadow-lg" src={model2} alt="Project 2" />
+//              <p className="mt-2 text-center text-sm">Project 2</p> 
+//          </div>
+//         <div className="flex flex-col items-center">
+//             <img className="h-[200px] w-full object-cover rounded-lg shadow-lg" src={model3} alt="Project 3" />
+//              <p className="mt-2 text-center text-sm">Project 3</p> 
+//         </div>
+//         <div className="flex flex-col items-center">
+//             <img className="h-[200px] w-full object-cover rounded-lg shadow-lg" src={model4} alt="Project 4" />
+//              <p className="mt-2 text-center text-sm">Project 4</p> 
+//         </div>
+//     </div>
+// </div>
+// </section>    
+
+
+//    EDUCATE SECTION
+
+{/* <section className='bg-cyan-100'>
+<div>
+    <h1>Education</h1>
+    <p>My education has been a journey of self-discovery and growth. My educational details are as follows.</p>
+</div>
+<div>
+    <h1>Surya Group Of Institutions,Villupuram, Tamil Nadu </h1>
+    <p>Bachelor of Engineering - BE, Computer Science and Engineering
+        Oct 2020 - May 2024</p>
+    <p>Grade :8.00 CGPA</p>
+    <p>I completed a Bachelor's degree in Computer Science and Engineering at Surya Group Of Institutions,Villupuram, Tamil Nadu.
+        where I am learning and working on exciting projects with a team of talented developers.
+    </p>
+</div>
+
+<div>
+    <h1>Sri Lakshmi Vidhyalaya Matric Higher Secondary School, Arakandanallur, Villupuram, Tamil Nadu</h1>
+    <p>HSC(XII), Computer Science and Mathematics</p>
+    <p>June 2019 - Apr 2020</p>
+    <p>Grade :58%</p>
+    <p>I completed my class 12 high school education at Sri Lakshmi Vidhyalaya Matric Higher Secondary School, Arakandanallur, Villupuram, Tamil Nadu 
+        where I studied Computer Science and Mathematics.</p>
+</div>
+
+<div>
+    <h1>Balamandir Matric Higher Secondary School, Arakandanallur, Villupuram, Tamil Nadu</h1>
+    <p>SSLC(X)</p>
+    <p>Jun 2017 - Apr 2018</p>
+    <p>Grade :69%</p>
+    <p>I completed my class 10 education at Balamandir Matric Higher Secondary School, Arakandanallur, Villupuram, Tamil Nadu</p>
+</div>
+
+</section>  */}
+
+
+        // EDUCATE SECTION 2
+
+
+    //     <section class="bg-cyan-100 py-10">
+    //     <div class="max-w-screen-lg mx-auto px-4">
+    //         {/* <!-- Heading Section --> */}
+    //         <div class="text-center mb-10">
+    //             <h1 class="text-4xl font-semibold text-gray-800">Education</h1>
+    //             <p class="text-lg text-gray-600 mt-2">My education has been a journey of self-discovery and growth. My educational details are as follows.</p>
+    //         </div>
+
+    //         {/* <!-- Surya Group of Institutions --> */}
+    //         <div class="mb-10 p-6 bg-white rounded-lg shadow-md border border-gray-200">
+    //             <h2 class="text-2xl font-bold text-blue-600">Surya Group Of Institutions, Villupuram, Tamil Nadu</h2>
+    //             <p class="text-lg mt-2 text-gray-600">Bachelor of Engineering - BE, Computer Science and Engineering</p>
+    //             <p class="text-lg text-gray-600">Oct 2020 - May 2024</p>
+    //             <p class="text-lg text-gray-600">Grade: 8.00 CGPA</p>
+    //             <p class="mt-4 text-gray-700">I completed a Bachelor's degree in Computer Science and Engineering at Surya Group of Institutions, Villupuram, Tamil Nadu, where I am learning and working on exciting projects with a team of talented developers.</p>
+    //         </div>
+
+    //         {/* <!-- Sri Lakshmi Vidhyalaya Matric Higher Secondary School --> */}
+    //         <div class="mb-10 p-6 bg-white rounded-lg shadow-md border border-gray-200">
+    //             <h2 class="text-2xl font-bold text-blue-600">Sri Lakshmi Vidhyalaya Matric Higher Secondary School, Arakandanallur, Villupuram, Tamil Nadu</h2>
+    //             <p class="text-lg mt-2 text-gray-600">HSC(XII), Computer Science and Mathematics</p>
+    //             <p class="text-lg text-gray-600">June 2019 - Apr 2020</p>
+    //             <p class="text-lg text-gray-600">Grade: 58%</p>
+    //             <p class="mt-4 text-gray-700">I completed my class 12 high school education at Sri Lakshmi Vidhyalaya Matric Higher Secondary School, Arakandanallur, Villupuram, Tamil Nadu, where I studied Computer Science and Mathematics.</p>
+    //         </div>
+
+    //         {/* <!-- Balamandir Matric Higher Secondary School --> */}
+    //         <div class="mb-10 p-6 bg-white rounded-lg shadow-md border border-gray-200">
+    //             <h2 class="text-2xl font-bold text-blue-600">Balamandir Matric Higher Secondary School, Arakandanallur, Villupuram, Tamil Nadu</h2>
+    //             <p class="text-lg mt-2 text-gray-600">SSLC(X)</p>
+    //             <p class="text-lg text-gray-600">Jun 2017 - Apr 2018</p>
+    //             <p class="text-lg text-gray-600">Grade: 69%</p>
+    //             <p class="mt-4 text-gray-700">I completed my class 10 education at Balamandir Matric Higher Secondary School, Arakandanallur, Villupuram, Tamil Nadu.</p>
+    //         </div>
+    //     </div>
+    // </section>
+
+
+    // RESUME SECTION
+
+    // <section className="flex flex-col md:flex-row resume px-5 bg-blue-300">
+    //     {/* /* Image Section */ */}
+    //     <div className="md:w-1/2 flex justify-center md:justify-end mb-5 md:mb-0">
+    //       <img
+    //         src={myres}
+    //         alt="Resume"
+    //         className="border w-[250px] h-auto rounded-md shadow-lg"
+    //       />
+    //     </div>
+
+    //     {/* Text Section */}
+    //     <div className="md:w-1/2 flex justify-center items-center">
+    //       <div className="flex flex-col justify-center text-center md:text-left">
+    //         <h2 className="text-3xl text-white border-b-4 mb-4 w-[140px] mx-auto md:mx-0">
+    //           Resume!
+    //         </h2>
+    //         <p className="text-white ptag">
+    //           You can view my resume{" "}
+    //           <a
+    //             href="#"
+    //             className="text-black btn bg-cyan-100 px-5 py-2 font-bold hover:border-2 border-white rounded transition duration-300"
+    //           >
+    //             Click Download
+    //           </a>
+    //         </p>
+    //       </div>
+    //     </div>
+    //   </section> 
+
+
+                // CONTACT SECTION
+
+    // <section className="flex flex-col bg-cyan-100 py-32 px-5">
+    //             {/* Contact Header Section */}
+    //             <div className="flex flex-col items-center mb-12">
+    //                 <h2 className="text-4xl text-white border-b-4 border-cyan-600 mb-6 w-[180px] text-center">
+    //                     Contact
+    //                 </h2>
+    //                 <p className="text-white text-lg text-center max-w-xl">
+    //                     If you want to discuss more in detail, please feel free to contact me. I look forward to hearing from you!
+    //                 </p>
+    //             </div>
+
+    //             {/* Contact Form Section */}
+    //             <div className="flex flex-col md:flex-row justify-center items-center">
+    //                 <div className="bg-white p-8 rounded-lg shadow-lg w-full md:w-1/2">
+    //                     <form action="#" method="POST" className="space-y-6">
+
+    //                         {/* NAME INPUT */}
+
+    //                         <div>
+    //                             <label htmlFor="Name" className="block text-gray-700 font-semibold">Your Name</label>
+    //                             <input
+    //                                 type="text"
+    //                                 id="name"
+    //                                 name="peru"
+    //                                 required
+    //                                 placeholder="Enter your name"
+    //                                 className="w-1/3 p-3 mt-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-cyan-500"
+    //                             />
+    //                         </div>
+
+    //                         {/* Email Input */}
+    //                         <div>
+    //                             <label htmlFor="email" className="block text-gray-700 font-semibold">Email Address</label>
+    //                             <input
+    //                                 type="email"
+    //                                 id="email"
+    //                                 name="email"
+    //                                 required
+    //                                 placeholder="Enter your email"
+    //                                 className="w-full p-3 mt-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-cyan-500"
+    //                             />
+    //                         </div>
+
+    //                         {/* Mobile Number Input */}
+    //                         <div>
+    //                             <label htmlFor="phone" className="block text-gray-700 font-semibold">Mobile Number</label>
+    //                             <input
+    //                                 type="tel"
+    //                                 id="phone"
+    //                                 name="phone"
+    //                                 required
+    //                                 placeholder="Enter your mobile number"
+    //                                 className="w-full p-3 mt-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-cyan-500"
+    //                             />
+    //                         </div>
+
+    //                         {/* Send Button */}
+    //                         <div>
+    //                             <button
+    //                                 type="submit"
+    //                                 className="w-full bg-cyan-500 text-white font-semibold py-3 rounded-md hover:bg-cyan-400 transition duration-300"
+    //                             >
+    //                                 Send Message
+    //                             </button>
+    //                         </div>
+    //                     </form>
+    //                 </div>
+    //             </div>
+    //         </section> 
