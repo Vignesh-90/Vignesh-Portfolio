@@ -3,6 +3,7 @@ import Heroimg from '../assests/coding.png'
 import { IoLogoLinkedin } from "react-icons/io5";
 import { FaSquareInstagram } from "react-icons/fa6";
 import { FaXTwitter } from "react-icons/fa6";
+import { IoLogoGithub } from "react-icons/io";
 
 
 export const Hero = () => {
@@ -10,7 +11,8 @@ export const Hero = () => {
     const config = {
         linkedin: 'https://www.linkedin.com/in/vigneshwaran-m-3468502b5?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
         instagram: 'https://www.instagram.com/wikki__offcl/profilecard/?igsh=MWttZzRndGx3NzUxcQ==',
-        twitter: 'https://x.com/Wikkiow?t=tmLulA8e2PqAAUZQ6SigRw&s=09'
+        twitter: 'https://x.com/Wikkiow?t=tmLulA8e2PqAAUZQ6SigRw&s=09',
+        github: 'https://github.com/Vignesh-90/Vignesh-Portfolio.git'
       }
 
     return (
@@ -50,6 +52,7 @@ export const Hero = () => {
                             <a href={config.twitter} className='hover:text-white'>
                                 <FaXTwitter size={20} />
                             </a>
+                            <a href={config.github}><IoLogoGithub /></a>
                         </div>
                     </div>
 
