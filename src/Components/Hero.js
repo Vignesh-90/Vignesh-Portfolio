@@ -42,7 +42,7 @@ export const Hero = () => {
                         </div>
 
                         {/* Social Links */}
-                        <div className='flex justify-center md:justify-start py-5'>
+                        <div className='flex justify-center md:justify-start py-5 '>
                             <a href={config.linkedin} className='pr-3 hover:text-blue-400'>
                                 <IoLogoLinkedin size={20} />
                             </a>
@@ -52,7 +52,7 @@ export const Hero = () => {
                             <a href={config.twitter} className='hover:text-white'>
                                 <FaXTwitter size={20} />
                             </a>
-                            <a href={config.github}><IoLogoGithub /></a>
+                            <a  className='pl-3 hover:text-gray-600' href={config.github}><IoLogoGithub size={20}/></a>
                         </div>
                     </div>
 
