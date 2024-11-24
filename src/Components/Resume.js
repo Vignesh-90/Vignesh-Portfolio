@@ -1,9 +1,9 @@
 import React from 'react'
-import myres from '../assests/Resume/My Resume.png'
+import myres from '../assests/Resume/My.png'
 
 export const Resume = () => {
   const config = {
-    link: 'https://drive.google.com/file/d/17L2Q9asIkE_5c5yz03vAyhRhsng83wC2/view?usp=drivesdk'
+    link: 'https://drive.google.com/file/d/17UfeN2MyzuvOo3yTyFVriy39RS56n9z6/view?usp=drivesdk'
   };
 
   return (

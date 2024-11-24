@@ -7,6 +7,8 @@ import { FaBootstrap } from "react-icons/fa6";
 import { FaNodeJs } from "react-icons/fa";
 import { SiExpress } from "react-icons/si";
 import { SiMongodb } from "react-icons/si";
+import { FaPython } from "react-icons/fa";
+import { FaGitAlt } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaFileExcel } from "react-icons/fa";
 import { SiPostman } from "react-icons/si";
@@ -58,6 +60,9 @@ export const Bad = () => {
                             <p className="flex items-center text-lg">
                                 <SiMongodb className="text-green-700 mr-2" /> MongoDB
                             </p>
+                            <p className="flex items-center text-lg">
+                            <FaPython className="text-blue-600 mr-2" />Pyhton (Basics)
+                            </p>
                         </div>
                     </div>
 
@@ -65,6 +70,10 @@ export const Bad = () => {
                     <div className="flex flex-col items-center p-4 w-full md:w-1/3 mb-6 md:mb-0">
                         <h2 className="text-gray-600 text-xl font-semibold mb-4">Others</h2>
                         <div className="flex flex-wrap gap-4 justify-center">
+                            <p className="flex items-center text-lg">
+                                <FaGitAlt className="text-red-600 mr-2"/> Git
+                            </p>
+
                             <p className="flex items-center text-lg">
                                 <FaGithub className="text-gray-900 mr-2" /> GitHub
                             </p>
