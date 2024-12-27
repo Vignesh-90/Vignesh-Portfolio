@@ -1,8 +1,8 @@
 import React from 'react'
 import model from '../assests/proj/model.jpg'
 import model2 from '../assests/proj/pic 1.jpg'
-import model3 from '../assests/proj/pic 2.jpg'
-import model4 from '../assests/proj/pic 5.jpg'
+import model3 from '../assests/proj/Screenshot (4).png'
+
 
 export const Projects = () => {
     return (
@@ -24,16 +24,13 @@ export const Projects = () => {
                         </div>
                         <div className="flex flex-col items-center">
                             <img className="h-[200px] w-full object-cover rounded-lg shadow-lg" src={model2} alt="Project 2" />
-                            {/* <p className="mt-2 text-center text-sm">Project 2</p> */}
+                            <p className="mt-2 text-center text-sm">This is a student Attendence project</p> 
                         </div>
                         <div className="flex flex-col items-center">
                             <img className="h-[200px] w-full object-cover rounded-lg shadow-lg" src={model3} alt="Project 3" />
-                            {/* <p className="mt-2 text-center text-sm">Project 3</p> */}
+                            <p className="mt-2 text-center text-sm">This is a weather web app</p> 
                         </div>
-                        <div className="flex flex-col items-center">
-                            <img className="h-[200px] w-full object-cover rounded-lg shadow-lg" src={model4} alt="Project 4" />
-                            {/* <p className="mt-2 text-center text-sm">Project 4</p> */}
-                        </div>
+                        
                     </div>
                 </div>
             </section>

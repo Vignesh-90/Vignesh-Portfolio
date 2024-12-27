@@ -12,7 +12,7 @@ export const Hero = () => {
         linkedin: 'https://www.linkedin.com/in/vigneshwaran-m-3468502b5?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
         instagram: 'https://www.instagram.com/wikki__offcl/profilecard/?igsh=MWttZzRndGx3NzUxcQ==',
         twitter: 'https://x.com/Wikkiow?t=tmLulA8e2PqAAUZQ6SigRw&s=09',
-        github: 'https://github.com/Vignesh-90/Vignesh-Portfolio.git'
+        github: 'https://github.com/Vignesh-90'
       }
 
     return (

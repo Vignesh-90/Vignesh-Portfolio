@@ -61,7 +61,7 @@ export const Bad = () => {
                                 <SiMongodb className="text-green-700 mr-2" /> MongoDB
                             </p>
                             <p className="flex items-center text-lg">
-                            <FaPython className="text-blue-600 mr-2" />Pyhton (Basics)
+                            <FaPython className="text-blue-600 mr-2" />Python
                             </p>
                         </div>
                     </div>
