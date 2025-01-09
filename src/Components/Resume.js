@@ -3,7 +3,7 @@ import myres from '../assests/Resume/My.png'
 
 export const Resume = () => {
   const config = {
-    link: 'https://drive.google.com/file/d/17roZ6paWYrncEIuWTjtNKWl-LFXKLL4F/view?usp=drivesdk'
+    link: 'https://drive.google.com/file/d/18r2bLVZsHCPTeM7QXwV5S4kxyiil_7dx/view?usp=sharing'
   };
 
   return (
